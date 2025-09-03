@@ -25,3 +25,9 @@ This plot shows how many instances were predicted as calm vs. stressed. It visua
 <img width="500" height="400" alt="confusion_matrix" src="https://github.com/user-attachments/assets/164bf189-d73c-4f17-8848-35ab4f7cb04d" />
 
 This matrix shows our model's performance.All 16 calm instances and 9 stressed instances were classified correctly, achieving 100% accuracy on the test set.This confirms strong separation between the two classes and that the model is not overfitting.
+
+# PROJECT OUTCOME
+The trained model achieved 100% accuracy on the test data. Real-time system worked reliably with minimal latency (response within seconds). Distinct feedback was given to the user with strong differentiation between “Calm” and “Stressed” conditions. All collected data was consistently labeled, and feature extraction was robust. Alerts via email were tested and delivered successfully. The system responded reliably and showed clear differences between calm and stressed conditions.
+
+# CONCLUSION & FUTURE WORK
+The system effectively detects stress in real time using a PPG sensor, machine learning, and the Arduino UNO R4. It provides visual and email alerts, making it useful for personal stress monitoring. Future improvements include adding HRV features, mobile app integration, and cloud-based data logging.
